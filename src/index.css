@@ -1,0 +1,67 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:light {
+    --grape: 114, 35, 204;
+
+    --background: 245, 245, 245;
+    
+    --border: 212, 212, 212;
+    --card: 255,255,255;
+
+    --copy-primary: 23, 23, 23;
+    --copy-secondary: 115, 115, 115;
+    
+    --cta: 139, 82, 246;
+    --cta-active: 124, 58, 237;
+    --cta-text: 255, 255, 255;
+}
+
+:dark {
+    --grape: 114, 35, 204;
+
+    --background: 245, 245, 245;
+    
+    --border: 212, 212, 212;
+    --card: 255,255,255;
+
+    --copy-primary: 23, 23, 23;
+    --copy-secondary: 115, 115, 115;
+    
+    --cta: 139, 82, 246;
+    --cta-active: 124, 58, 237;
+    --cta-text: 255, 255, 255;
+}
+
+:blue {
+    --grape: 114, 35, 204;
+
+    --background: 245, 245, 245;
+    
+    --border: 212, 212, 212;
+    --card: 255,255,255;
+
+    --copy-primary: 23, 23, 23;
+    --copy-secondary: 115, 115, 115;
+    
+    --cta: 139, 82, 246;
+    --cta-active: 124, 58, 237;
+    --cta-text: 255, 255, 255;
+}
+
+:blue_dark {
+    --grape: 114, 35, 204;
+
+    --background: 245, 245, 245;
+    
+    --border: 212, 212, 212;
+    --card: 255,255,255;
+
+    --copy-primary: 23, 23, 23;
+    --copy-secondary: 115, 115, 115;
+    
+    --cta: 139, 82, 246;
+    --cta-active: 124, 58, 237;
+    --cta-text: 255, 255, 255;
+}
