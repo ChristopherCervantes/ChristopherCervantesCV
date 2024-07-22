@@ -1,7 +1,8 @@
 <template>
-  <div class="h-16 font-mono tracking-wider text-gray-100 text-3xl flex flex-col gap-4">
+  <div class="h-16 font-mono tracking-wider text-gray-100 text-3xl flex 
+  flex-col gap-4 md:flex-row">
     <h2 class="">Hi, I'm a</h2>
-    <p class="w-screen">{{ model }}{{ model2 }} </p>
+    <p class="w-screen md:w-auto">{{ model }}{{ model2 }} </p>
   </div>
 </template>
 
@@ -33,16 +34,16 @@ const mostrarMensaje = async (message) => {
     await new Promise(resolve => setTimeout(resolve, 300))
     model.value = model.value + message[i]
   }
-  await new Promise(resolve => setTimeout(resolve, message.length * 350))
+  await new Promise(resolve => setTimeout(resolve, message.length * 300))
   model.value = ''
 }
 
 const activateTextAnimation = async () => {
   while(OutputCondition) {
     await mostrarMensaje(message1)
-    await new Promise(resolve => setTimeout(resolve, message1.length * 700))
+    await new Promise(resolve => setTimeout(resolve, message1.length * 200))
     await mostrarMensaje(message2)
-    await new Promise(resolve => setTimeout(resolve, message2.length * 700))
+    await new Promise(resolve => setTimeout(resolve, message2.length * 200))
   }
 }
 
