@@ -41,9 +41,9 @@ const mostrarMensaje = async (message) => {
 const activateTextAnimation = async () => {
   while(OutputCondition) {
     await mostrarMensaje(message1)
-    await new Promise(resolve => setTimeout(resolve, message1.length * 200))
+    await new Promise(resolve => setTimeout(resolve, message1.length * 100))
     await mostrarMensaje(message2)
-    await new Promise(resolve => setTimeout(resolve, message2.length * 200))
+    await new Promise(resolve => setTimeout(resolve, message2.length * 100))
   }
 }
 
