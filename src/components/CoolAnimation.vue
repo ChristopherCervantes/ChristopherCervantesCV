@@ -1,6 +1,6 @@
 <template>
   <div class="h-16 font-mono tracking-wider text-gray-100 text-3xl flex 
-  flex-col gap-4 md:flex-row">
+  flex-col gap-4 xl:flex-row">
     <h2 class="">Hi, I'm a</h2>
     <p class="w-screen md:w-auto">{{ model }}{{ model2 }} </p>
   </div>
